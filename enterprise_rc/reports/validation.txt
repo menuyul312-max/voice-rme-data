@@ -1,0 +1,4 @@
+37 passed, 0 failed (CPU; no GPU inference)
+train_whisper_turbo_rme_v2_rc.ipynb: 17 Python code cells syntax OK; embedded sources match; outputs cleared
+benchmark_v2_colab_t4_rc.ipynb: 23 Python code cells syntax OK; embedded sources match; outputs cleared
+Benchmark defaults to existing_v2; cache isolated by model variant.
