@@ -1,0 +1,8 @@
+{
+  "cpu_tests": 22,
+  "gpu_run": false,
+  "notebooks": {
+    "benchmark_rme_v4_colab_t4.ipynb": "valid; embedded modules match; syntax parsed",
+    "train_whisper_turbo_rme_v4.ipynb": "valid; embedded modules match; syntax parsed"
+  }
+}
