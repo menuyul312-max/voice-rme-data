@@ -1,0 +1,16 @@
+{
+  "scope": "CPU metadata rehearsal only; no VAD screening, teacher or human edits applied",
+  "planned_train": 17494,
+  "repetitive_train_reference_flags": 0,
+  "after_label_loop_and_source_caps": 14320,
+  "cap_removed": 3174,
+  "curated_sources": {
+    "synthetic": 716,
+    "video": 13244,
+    "medisco": 360
+  },
+  "selection_clips": 600,
+  "selection_groups": 30,
+  "confirmation_clips": 400,
+  "confirmation_groups": 13
+}

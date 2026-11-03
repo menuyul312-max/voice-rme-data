@@ -1,0 +1,23 @@
+{
+  "method": "real Whisper turbo configuration on meta device; counts only, no weights loaded or training",
+  "profiles": {
+    "decoder_qv": {
+      "total_parameters_including_adapters": 809533440,
+      "trainable_parameters": 655360,
+      "trainable_percent": 0.08095527221210282,
+      "frozen_percent": 99.91904472778789
+    },
+    "top8_qv": {
+      "total_parameters_including_adapters": 810188800,
+      "trainable_parameters": 1310720,
+      "trainable_percent": 0.16177957532861476,
+      "frozen_percent": 99.83822042467139
+    },
+    "all_attention": {
+      "total_parameters_including_adapters": 815431680,
+      "trainable_parameters": 6553600,
+      "trainable_percent": 0.8036970062286518,
+      "frozen_percent": 99.19630299377135
+    }
+  }
+}

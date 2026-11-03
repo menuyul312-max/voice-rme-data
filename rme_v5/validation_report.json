@@ -1,0 +1,34 @@
+{
+  "cpu_tests_passed": 36,
+  "actual_tiny_whisper_gradient_profiles": 3,
+  "actual_hf_trainer_step_and_generation_evaluation": true,
+  "training_stack_cpu": {
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.3",
+    "peft": "0.18.0",
+    "accelerate": "1.12.0"
+  },
+  "parameter_counts": "real Turbo config on meta; no weights loaded",
+  "notebooks": {
+    "benchmark_rme_v5_colab.ipynb": {
+      "schema_valid": true,
+      "syntax_valid": true,
+      "embedded_modules_match": true,
+      "outputs_cleared": true
+    },
+    "train_whisper_turbo_rme_v5.ipynb": {
+      "schema_valid": true,
+      "syntax_valid": true,
+      "embedded_modules_match": true,
+      "outputs_cleared": true
+    },
+    "refine_rme_data_v5.ipynb": {
+      "schema_valid": true,
+      "syntax_valid": true,
+      "embedded_modules_match": true,
+      "outputs_cleared": true
+    }
+  },
+  "full_gpu_training_run": false,
+  "full_gpu_inference_run": false
+}

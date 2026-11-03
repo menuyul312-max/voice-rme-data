@@ -1,0 +1,82 @@
+{
+  "benchmark_rme_v5_colab.ipynb": {
+    "bytes": 84313,
+    "sha256": "ffc5f549499af672b51cf96fe611721257fc18218db6ff940bb8866cf65fc8c2"
+  },
+  "rme_bench.py": {
+    "bytes": 7975,
+    "sha256": "1fb62375f2233809950d4d84985407b9beba1485d4210ad9c909621498062219"
+  },
+  "test_rme_v5.py": {
+    "bytes": 3798,
+    "sha256": "cbf714a5fa96481ce5390483c7392cd97f130922f917f20c9916ae0e58beaf5e"
+  },
+  "rme_train.py": {
+    "bytes": 6691,
+    "sha256": "595bbd0a654b6228c2cc6cf4bbaa467a01252c9ab264a579162978141bfd7655"
+  },
+  "rme_profiles.py": {
+    "bytes": 1479,
+    "sha256": "ba684f0deade7e516bea750dcebccec91f3438aa595b677970d469036b61b684"
+  },
+  "DEEP_RESEARCH_V5.md": {
+    "bytes": 19183,
+    "sha256": "00640c82e41a2e0e4392ba28dbbfc1ab5ca2fb89801e02856c4e06b3049ea7b0"
+  },
+  "test_rme_core.py": {
+    "bytes": 4959,
+    "sha256": "7aecfed0ad00ebb62e66cdc23f4f3b1f6b114a5c76527ae31740af0d0719cb10"
+  },
+  "train_whisper_turbo_rme_v5.ipynb": {
+    "bytes": 97522,
+    "sha256": "1c35be7eed1bd39b3ce21def2d54f90fb7a6a2d844b6ff71849d309a477a02af"
+  },
+  "DATA_CONTRACT.md": {
+    "bytes": 6601,
+    "sha256": "72522b0025a23f1655dc9e07de56eb58134c4472fbe46195a5601df8ef750582"
+  },
+  "test_rme_decode.py": {
+    "bytes": 2690,
+    "sha256": "ffe5ccf6fd70996b4c7370833d9510d239157c11dcd4477f2ede0fcd464ff122"
+  },
+  "rme_core.py": {
+    "bytes": 15023,
+    "sha256": "f29a0b64ea82bd20365fa53c6e5d8f5aceb37062368da73ec638b71d09e1d0a8"
+  },
+  "rme_decode.py": {
+    "bytes": 3233,
+    "sha256": "d0d44cf43ad698c4bc5f0c679bad99822c25b8dd5aa09e7bfdead49ceee90c09"
+  },
+  "parameter_expectations.json": {
+    "bytes": 763,
+    "sha256": "92f38eb09e65b11063ec729ee85bead4316764763e57438462e6f87b835c46e1"
+  },
+  "data_rehearsal.json": {
+    "bytes": 428,
+    "sha256": "8dab035cf96b1cfd9a276c3499336f2a512399235178143498634285b549b6ee"
+  },
+  "README.md": {
+    "bytes": 5329,
+    "sha256": "c7c2e0f5cc117205432d3cd26487ee80ef200b5f3f1c6026216695c85d2f0213"
+  },
+  "validation_report.json": {
+    "bytes": 937,
+    "sha256": "a10e1e0a354a62debe87f8e8c8fd1eb0a2b9900f275d92826ba66659ec39f147"
+  },
+  "refine_rme_data_v5.ipynb": {
+    "bytes": 88550,
+    "sha256": "e73b639423c2f20d11daea5ad58e9d1b50a64dfe6e05b2c164866db3768d8c56"
+  },
+  "test_tiny_training.py": {
+    "bytes": 4910,
+    "sha256": "ac75a9340f05dfe64a9d7b798b30ff5f4a458cc1f93cc2e932196cd810bd3e55"
+  },
+  "rme_data.py": {
+    "bytes": 7806,
+    "sha256": "1cc071d56bff37efc381336644f1c11f5be8dfb9a4880d40fc08a3d765b2f60e"
+  },
+  "rme_eval.py": {
+    "bytes": 3121,
+    "sha256": "f62389a9d85e3e085821063a9a0c5360486758b7ec81e066023716da377b6de2"
+  }
+}
