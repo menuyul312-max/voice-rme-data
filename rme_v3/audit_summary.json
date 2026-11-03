@@ -1,0 +1,215 @@
+{
+  "archive_sha256": "1213c8df5ca041dbf7dcfb119cd2d9112d970ad0849cff2193f02d1dd65c68d6",
+  "manifest_rows": 32604,
+  "audio_files": 32604,
+  "hours": 107.60409063480253,
+  "sources": {
+    "Level_2_Clinical_Education_OSCE": {
+      "clips": 7063,
+      "hours": 25.74394765625,
+      "groups": 146,
+      "clean_lexical_changed": 6149,
+      "split_counts": {
+        "dev": 642,
+        "test": 1078,
+        "train": 5343
+      }
+    },
+    "Level_3_Real_Hospital_Clinic_Dialog": {
+      "clips": 17325,
+      "hours": 63.17782409722222,
+      "groups": 292,
+      "clean_lexical_changed": 15101,
+      "split_counts": {
+        "dev": 1975,
+        "test": 1414,
+        "train": 13936
+      }
+    },
+    "fleurs_id_test": {
+      "clips": 204,
+      "hours": 0.5858166666666667,
+      "groups": 1,
+      "clean_lexical_changed": 114,
+      "split_counts": {
+        "dev": 31,
+        "test": 7,
+        "train": 166
+      }
+    },
+    "fleurs_id_train": {
+      "clips": 714,
+      "hours": 2.0759,
+      "groups": 1,
+      "clean_lexical_changed": 396,
+      "split_counts": {
+        "dev": 85,
+        "test": 40,
+        "train": 589
+      }
+    },
+    "fleurs_id_validation": {
+      "clips": 101,
+      "hours": 0.28635,
+      "groups": 1,
+      "clean_lexical_changed": 55,
+      "split_counts": {
+        "dev": 18,
+        "test": 4,
+        "train": 79
+      }
+    },
+    "mrqorib_medisco_test": {
+      "clips": 720,
+      "hours": 1.5095679516250946,
+      "groups": 2,
+      "clean_lexical_changed": 308,
+      "split_counts": {
+        "train": 720
+      }
+    },
+    "mrqorib_medisco_train": {
+      "clips": 3600,
+      "hours": 7.6818575963718825,
+      "groups": 10,
+      "clean_lexical_changed": 1514,
+      "split_counts": {
+        "dev": 360,
+        "train": 3240
+      }
+    },
+    "synthetic_clinical_v3": {
+      "clips": 2877,
+      "hours": 6.542826666666667,
+      "groups": 1,
+      "clean_lexical_changed": 708,
+      "split_counts": {
+        "dev": 374,
+        "train": 2503
+      }
+    }
+  },
+  "decode_errors": 0,
+  "sample_rates": {
+    "16000": 25407,
+    "24000": 2877,
+    "44100": 4320
+  },
+  "channels": {
+    "1": 32604
+  },
+  "duration_quantiles": [
+    1.08,
+    10.44,
+    13.01,
+    14.03,
+    14.82,
+    26.121
+  ],
+  "over_30s": 0,
+  "clipping_over_0_1pct_samples": 246,
+  "near_silent": 0,
+  "pcm_duplicate_extra_files": 1535,
+  "original_group_overlap": {
+    "train_dev": 0,
+    "train_test": 0,
+    "dev_test": 0
+  },
+  "derived_overlap": {
+    "group_id": {
+      "train_dev": 2,
+      "train_test": 1,
+      "dev_test": 1
+    },
+    "speaker_id": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "pcm_sha256": {
+      "train_dev": 1,
+      "train_test": 0,
+      "dev_test": 0
+    }
+  },
+  "long_exact_reference_overlap": {
+    "train_dev": {
+      "matched_clips_in_second": 803,
+      "unique_texts": 516
+    },
+    "train_test": {
+      "matched_clips_in_second": 0,
+      "unique_texts": 0
+    },
+    "dev_test": {
+      "matched_clips_in_second": 17,
+      "unique_texts": 17
+    }
+  },
+  "label_flags": {
+    "clean_changed_number": 3929,
+    "clean_lexical_change": 24345,
+    "clean_changed_unit": 266,
+    "clean_changed_negation": 1031
+  },
+  "reject_reasons": {
+    "label_critical_disagreement_requires_audio_review": 4898,
+    "duration_metadata_mismatch_requires_review": 1089,
+    "identical_audio_conflicting_references": 2
+  },
+  "valid_before_token_check": 26841,
+  "dedup_removed_before_token_check": 4776,
+  "new_split_before_token_check": {
+    "train": {
+      "clips": 17494,
+      "groups": 330,
+      "hours": 59.20821230753181,
+      "sources": {
+        "synthetic": 2370,
+        "video": 14764,
+        "medisco": 360
+      }
+    },
+    "dev": {
+      "clips": 2477,
+      "groups": 43,
+      "hours": 9.047398238103112,
+      "sources": {
+        "video": 2476,
+        "medisco": 1
+      }
+    },
+    "test": {
+      "clips": 2094,
+      "groups": 34,
+      "hours": 6.969811836813429,
+      "sources": {
+        "video": 1744,
+        "medisco": 350
+      }
+    }
+  },
+  "token_audit": {
+    "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+    "rows_checked": 26841,
+    "max_label_tokens_after_bos": 112,
+    "over_448": 0
+  },
+  "quarantined_unique_clips": 5763,
+  "duration_discrepancy_detail": {
+    "fleurs_all_1019_files": "decoded duration exactly 0.5 times manifest duration",
+    "other_files_over_threshold": 70
+  },
+  "duplicate_detail": {
+    "cross_level2_level3_pairs": 1531,
+    "synthetic_pairs": 4,
+    "conflicting_label_pairs": 1
+  },
+  "limitations": [
+    "No manual listening or clinician transcription validation",
+    "No GPU training/inference of v3",
+    "Exact PCM comparison only; near duplicates not exhaustively detected",
+    "Video-disjoint does not imply known speaker-disjoint",
+    "Screening flags are not confirmed clinical error counts"
+  ]
+}

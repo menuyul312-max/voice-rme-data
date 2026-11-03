@@ -1,0 +1,19 @@
+{
+  "cpu_tests_passed": 15,
+  "notebooks": {
+    "benchmark_rme_v3_colab_t4.ipynb": {
+      "schema_valid": true,
+      "code_cells_parsed": 14,
+      "embedded_modules_match": true,
+      "outputs_cleared": true
+    },
+    "train_whisper_turbo_rme_v3.ipynb": {
+      "schema_valid": true,
+      "code_cells_parsed": 12,
+      "embedded_modules_match": true,
+      "outputs_cleared": true
+    }
+  },
+  "gpu_training_run": false,
+  "gpu_inference_run": false
+}
